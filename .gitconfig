@@ -67,7 +67,8 @@
   authors = shortlog -sn
   serve = daemon --verbose --export-all --base-path=.git --reuseaddr --strict-paths .git/
   serveall = daemon --verbose --export-all --base-path=. --reuseaddr .
-  addpr = "!f() { git fetch origin pull/$1/head:pr/$1; }; f"
+  addpr = "!f() { git fetch origin pull/$1/merge:pr/$1; }; f"
+  addprc = "!f() { git fetch origin pull/$1/head:pr/$1; }; f"
 
 [instaweb]
   httpd=webrick
