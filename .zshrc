@@ -104,3 +104,5 @@ PS1="%{$fg[red]%}%n%{$reset_color%}@%{$fg[blue]%}%m %{$fg[yellow]%}%~ %{$reset_c
 alias edit='sublime &'
 alias nano='nano -c'
 alias ls='ls --color'
+
+source ~/.nvm/nvm.sh
