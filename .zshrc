@@ -104,5 +104,3 @@ PS1="%{$fg[red]%}%n%{$reset_color%}@%{$fg[blue]%}%m %{$fg[yellow]%}%~ %{$reset_c
 alias edit='sublime &'
 alias nano='nano -c'
 alias ls='ls --color'
-
-[ -s "/home/ecornelius/.nvm/nvm.sh" ] && . "/home/ecornelius/.nvm/nvm.sh" # This loads nvm
