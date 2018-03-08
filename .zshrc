@@ -105,4 +105,7 @@ alias edit='sublime &'
 alias nano='nano -c'
 alias ls='ls --color'
 
+alias setclip='xclip -selection c'
+alias getclip='xclip -selection c -o'
+
 source ~/.nvm/nvm.sh
